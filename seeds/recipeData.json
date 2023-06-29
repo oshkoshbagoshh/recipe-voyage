@@ -1,15 +1,14 @@
 [
   {
-    "dish_name": "Recipe 1",
-    "type": "Type 1",
+    "dish_name": "Smoked Chicken",
+    "type": "Chicken",
     "ingredients": "Ingredients for Recipe 1",
     "instructions": "Instructions for Recipe 1"
   },
   {
-    "dish_name": "Recipe 2",
-    "type": "Type 2",
+    "dish_name": "Smoked Ribs",
+    "type": "Pork",
     "ingredients": "Ingredients for Recipe 2",
     "instructions": "Instructions for Recipe 2"
   }
-  
 ]
