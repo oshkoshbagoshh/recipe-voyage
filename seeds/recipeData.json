@@ -1,0 +1,15 @@
+[
+  {
+    "dish_name": "Recipe 1",
+    "type": "Type 1",
+    "ingredients": "Ingredients for Recipe 1",
+    "instructions": "Instructions for Recipe 1"
+  },
+  {
+    "dish_name": "Recipe 2",
+    "type": "Type 2",
+    "ingredients": "Ingredients for Recipe 2",
+    "instructions": "Instructions for Recipe 2"
+  }
+  
+]
