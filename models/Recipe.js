@@ -11,13 +11,13 @@ Recipe.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    dish_name: {
+    recipe_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
     type: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     ingredients: {
       type: DataTypes.STRING,
