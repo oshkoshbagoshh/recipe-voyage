@@ -1,7 +1,7 @@
-const newFormHandler = async (event) => {
+const createRecipe = async (event) => {
   event.preventDefault();
-
-  const name = document.querySelector('#dish_name').value.trim();
+  
+  const recipe_name = document.querySelector('#recipe_name').value.trim();
   const ingredients = document
     .querySelector('#recipe_ingredients')
     .value.trim();
@@ -9,10 +9,10 @@ const newFormHandler = async (event) => {
     .querySelector('#recipe_instructions')
     .value.trim();
 
-  if (name && ingredients && instructions) {
+  if (recipe_name && ingredients && instructions) {
     const response = await fetch(`/api/recipes`, {
       method: 'POST',
-      body: JSON.stringify({ name, ingredients, instructions }),
+      body: JSON.stringify({ recipe_name, ingredients, instructions }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -44,8 +44,10 @@ const delButtonHandler = async (event) => {
 
 document
   .querySelector('.new-recipe-form')
-  .addEventListener('submit', newFormHandler);
+  .addEventListener('submit',createRecipe); //used to be newFormHandler
 
+
+  // this is where our error is coming in 
 document
   .querySelector('.recipe-list')
   .addEventListener('click', delButtonHandler);
