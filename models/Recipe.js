@@ -27,10 +27,15 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    createDate: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: DataTypes.NOW,
+    },
   },
   {
     sequelize,
-    timestamps: false,
+    timestamps: true,
     freezeTableName: true,
     underscored: true,
     modelName: 'recipe',
@@ -38,6 +43,3 @@ Recipe.init(
 );
 
 module.exports = Recipe;
-
-
-

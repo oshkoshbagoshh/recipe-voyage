@@ -10,11 +10,28 @@
     <form class='form new-recipe-form'>
       <div class='form-group'>
         <label for='recipe_name'>Recipe Name:</label>
-        <input class='form-input' type='text' id='recipe_name' name='recipe_name'/>
+        <input
+          class='form-input'
+          type='text'
+          id='recipe_name'
+          name='recipe_name'
+        />
       </div>
       <div class='form-group'>
-        <label for='recipe_ingredients'>Recipe Ingredients</label>
-        <input class='form-input' type='text' id='recipe_ingredients' name='recipe_ingredients'/>
+        <label for='recipe_ingredients'>Recipe Ingredients:</label>
+        {{! <input
+          class='form-input'
+          type='text'
+          id='recipe_ingredients'
+          name='recipe_ingredients'
+        /> }}
+        <textarea
+          class='form-input'
+          type='text'
+          id='recipe_ingredients'
+          name='recipe_ingredients'
+        ></textarea>
+
       </div>
       <div class='form-group'>
         <label for='recipe_instructions'>Instructions:</label>
