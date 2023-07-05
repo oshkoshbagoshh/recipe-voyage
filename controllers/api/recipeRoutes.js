@@ -4,17 +4,16 @@ const withAuth = require('../../utils/auth');
 
 
 // need to create a GET route
-router.get('/', withAuth , async (req, res) => {
-  try {
-    const recipeData = await Recipe.findAll({
-      include: [{ model: User }],
-    });
-
-    res.render('recipeList', { recipes: recipeData }); // Render the 'recipeList' view with the 'recipes' data
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
+// router.get('/', withAuth , async (req, res) => {
+//   try {
+//     const recipeData = await Recipe.findAll({
+//       include: [{ model: User }],
+//     });
+//     res.status(200).json(recipeData);
+//   } catch (err) {
+//     res.status(500).json(err);
+//   }
+// });
 
 
 router.post('/', withAuth, async (req, res) => {
