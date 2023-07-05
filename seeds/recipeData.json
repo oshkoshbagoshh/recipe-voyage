@@ -1,90 +1,29 @@
 [
-  {
+{
     "recipe_name": "Grilled Chicken",
     "type": "Chicken",
-    "ingredients": [
-      "4 boneless, skinless chicken breasts",
-      "2 tablespoons olive oil",
-      "2 cloves garlic, minced",
-      "1 teaspoon dried thyme",
-      "1 teaspoon dried rosemary",
-      "Salt and pepper to taste"
-    ],
-    "instructions": [
-      "Preheat the grill to medium-high heat.",
-      "In a small bowl, mix together olive oil, garlic, thyme, rosemary, salt, and pepper.",
-      "Coat the chicken breasts with the mixture.",
-      "Grill the chicken for about 6-8 minutes per side or until cooked through.",
-      "Remove from the grill and let it rest for a few minutes before serving."
-    ]
+    "ingredients": "4 boneless, skinless chicken breasts\n2 tablespoons olive oil\n2 cloves garlic, minced\n1 teaspoon dried thyme\n1 teaspoon dried rosemary\nSalt and pepper to taste",
+    "instructions": "Preheat the grill to medium-high heat.\nIn a small bowl, mix together olive oil, garlic, thyme, rosemary, salt, and pepper.\nCoat the chicken breasts with the mixture.\nGrill the chicken for about 6-8 minutes per side or until cooked through.\nRemove from the grill and let it rest for a few minutes before serving."
   },
   {
     "recipe_name": "Grilled Vegetable Skewers",
     "type": "Vegetarian",
-    "ingredients": [
-      "1 red bell pepper, cut into chunks",
-      "1 yellow bell pepper, cut into chunks",
-      "1 zucchini, sliced",
-      "1 red onion, cut into chunks",
-      "8 cherry tomatoes",
-      "2 tablespoons olive oil",
-      "1 tablespoon balsamic vinegar",
-      "1 teaspoon dried oregano",
-      "Salt and pepper to taste"
-    ],
-    "instructions": [
-      "Preheat the grill to medium heat.",
-      "In a large bowl, combine olive oil, balsamic vinegar, oregano, salt, and pepper.",
-      "Add the vegetables to the bowl and toss to coat them with the marinade.",
-      "Thread the vegetables onto skewers, alternating the different types of vegetables.",
-      "Grill the skewers for about 10-12 minutes, turning occasionally, until the vegetables are tender and lightly charred.",
-      "Remove from the grill and serve hot."
-    ]
+    "ingredients": "1 red bell pepper, cut into chunks\n1 yellow bell pepper, cut into chunks\n1 zucchini, sliced\n1 red onion, cut into chunks\n8 cherry tomatoes\n2 tablespoons olive oil\n1 tablespoon balsamic vinegar\n1 teaspoon dried oregano\nSalt and pepper to taste",
+    "instructions": "Preheat the grill to medium heat.\nIn a large bowl, combine olive oil, balsamic vinegar, oregano, salt, and pepper.\nAdd the vegetables to the bowl and toss to coat them with the marinade.\nThread the vegetables onto skewers, alternating the different types of vegetables.\nGrill the skewers for about 10-12 minutes, turning occasionally, until the vegetables are tender and lightly charred.\nRemove from the grill and serve hot."
   },
   {
     "recipe_name": "Smoked Brisket",
     "type": "Beef",
-    "ingredients": [
-      "1 whole beef brisket (10-12 pounds)",
-      "2 tablespoons kosher salt",
-      "2 tablespoons black pepper",
-      "2 tablespoons paprika",
-      "1 tablespoon garlic powder",
-      "1 tablespoon onion powder",
-      "1 tablespoon brown sugar",
-      "1 teaspoon cayenne pepper"
-    ],
-    "instructions": [
-      "Preheat the smoker to 225°F (107°C).",
-      "In a small bowl, mix together salt, black pepper, paprika, garlic powder, onion powder, brown sugar, and cayenne pepper to make the rub.",
-      "Rub the brisket all over with the spice rub, making sure to coat it evenly.",
-      "Place the brisket in the smoker, fat side up.",
-      "Smoke the brisket for approximately 1.5 hours per pound, or until the internal temperature reaches 195°F (90°C) for slicing or 205°F (96°C) for pulling.",
-      "Remove the brisket from the smoker and let it rest for at least 30 minutes before slicing.",
-      "Slice the brisket against the grain and serve."
-    ]
+    "ingredients": "1 whole beef brisket (10-12 pounds)\n2 tablespoons kosher salt\n2 tablespoons black pepper\n2 tablespoons paprika\n1 tablespoon garlic powder\n1 tablespoon onion powder\n1 tablespoon brown sugar\n1 teaspoon cayenne pepper",
+    "instructions": "Preheat the smoker to 225°F (107°C).\nIn a small bowl, mix together salt, black pepper, paprika, garlic powder, onion powder, brown sugar, and cayenne pepper to make the rub.\nRub the brisket all over with the spice rub, making sure to coat it evenly.\nPlace the brisket in the smoker, fat side up.\nSmoke the brisket for approximately 1.5 hours per pound, or until the internal temperature reaches 195°F (90°C) for slicing or 205°F (96°C) for pulling.\nRemove the brisket from the smoker and let it rest for at least 30 minutes before slicing.\nSlice the brisket against the grain and serve."
   },
   {
     "recipe_name": "Smoked Salmon",
     "type": "Fish",
-    "ingredients": [
-      "2 pounds salmon fillets",
-      "1/4 cup brown sugar",
-      "1/4 cup kosher salt",
-      "2 tablespoons freshly ground black pepper",
-      "1 tablespoon paprika",
-      "1 teaspoon garlic powder",
-      "1 teaspoon onion powder"
-    ],
-    "instructions": [
-      "Preheat the smoker to 225°F (107°C).",
-      "In a small bowl, mix together brown sugar, kosher salt, black pepper, paprika, garlic powder, and onion powder to make the dry brine.",
-      "Sprinkle the dry brine mixture evenly over the salmon fillets, pressing it gently to adhere.",
-      "Place the salmon fillets on a wire rack and let them sit at room temperature for 30 minutes to allow the flavors to penetrate.",
-      "Transfer the salmon to the smoker, skin side down.",
-      "Smoke the salmon for about 1-2 hours, or until the internal temperature reaches 145°F (63°C) and the fish flakes easily with a fork.",
-      "Remove the smoked salmon from the smoker and let it cool slightly before serving.",
-      "Serve the smoked salmon chilled or at room temperature."
-    ]
+    "ingredients": "2 pounds salmon fillets\n1/4 cup brown sugar\n1/4 cup kosher salt\n2 tablespoons freshly ground black pepper\n1 tablespoon paprika\n1 teaspoon garlic powder\n1 teaspoon onion powder",
+    "instructions": "Preheat the smoker to 225°F (107°C).\nIn a small bowl, mix together brown sugar, kosher salt, black pepper, paprika, garlic powder, and onion powder to make the dry brine.\nSprinkle the dry brine mixture evenly over the salmon fillets, pressing it gently to adhere.\nPlace the salmon fillets on a wire rack and let them sit at room temperature for 30 minutes to allow the flavors to penetrate."
   }
+
 ]
+  
+
