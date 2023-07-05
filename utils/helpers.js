@@ -1,22 +1,17 @@
-module.exports = {
-  format_date: (date) => {
-    // Format date as MM/DD/YYYY
-    return date.toLocaleDateString();
-  },
-  format_amount: (amount) => {
-    // format large numbers with commas
-    return parseInt(amount).toLocaleString();
-  },
-  get_emoji: () => {
-    const randomNum = Math.random();
+// helpers.js
 
-    // Return a random emoji
-    if (randomNum > 0.7) {
-      return `<span for="img" aria-label="lightbulb">💡</span>`;
-    } else if (randomNum > 0.4) {
-      return `<span for="img" aria-label="laptop">💻</span>`;
-    } else {
-      return `<span for="img" aria-label="gear">⚙️</span>`;
+module.exports = {
+  format_date: function (date, options) {
+    // Check if the date argument is a valid date object
+    if (!(date instanceof Date) || isNaN(date)) {
+      return '';
     }
+
+    // Specify the date format options (e.g., 'en-US', { dateStyle: 'long' })
+    const formatOptions = options.hash || {};
+
+    // Format the date using toLocaleDateString method and the provided options
+    return date.toLocaleDateString(formatOptions.locale, formatOptions);
   },
 };
+
