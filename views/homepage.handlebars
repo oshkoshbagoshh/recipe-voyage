@@ -7,5 +7,13 @@
   <body>
     <h2 class="header-text"><center>Welcome to Recipe Voyage!</center></h2>
     <center><img src="/images/sailboat.png" alt="sailboat" height="500px" width="500px" class="sailboat"></center>
+
+   <h3>Latest Recipes:</h3>
+    <ul>
+      {{#each recipes}}
+      <li><a href="/recipe/{{id}}">{{recipe_name}}</a> by {{user.name}}</li>
+      {{/each}}
+    </ul>
+
   </body>
 </html>

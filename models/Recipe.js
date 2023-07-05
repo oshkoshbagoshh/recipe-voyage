@@ -20,11 +20,11 @@ Recipe.init(
       allowNull: true,
     },
     ingredients: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     instructions: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     createDate: {
