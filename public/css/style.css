@@ -1,3 +1,15 @@
+* {
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
 header,
 .recipe:not(:last-child) {
   border-bottom: 1px solid #ccc;
@@ -22,4 +34,22 @@ header,
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+}
+
+.header-color {
+  background: #CECC70;
+  background: -moz-linear-gradient(left, #CECC70 0%, #A49E49 50%, #C5664E 100%);
+  background: -webkit-linear-gradient(left, #CECC70 0%, #A49E49 50%, #C5664E 100%);
+  background: linear-gradient(to right, #CECC70 0%, #A49E49 50%, #C5664E 100%);
+}
+
+/* .body-color {
+  background: #A6CE98;
+  background: -moz-linear-gradient(left, #A6CE98 0%, #D5DC15 37%, #BB8E8E 100%);
+  background: -webkit-linear-gradient(left, #A6CE98 0%, #D5DC15 37%, #BB8E8E 100%);
+  background: linear-gradient(to right, #A6CE98 0%, #D5DC15 37%, #BB8E8E 100%);
+} */
+
+nav {
+  padding: 2%;
 }
