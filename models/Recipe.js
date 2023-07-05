@@ -30,7 +30,7 @@ Recipe.init(
   },
   {
     sequelize,
-    timestamps: false,
+    timestamps: true,
     freezeTableName: true,
     underscored: true,
     modelName: 'recipe',
@@ -38,6 +38,3 @@ Recipe.init(
 );
 
 module.exports = Recipe;
-
-
-
