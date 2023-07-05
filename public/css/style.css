@@ -3,7 +3,6 @@
   letter-spacing: 2px;
   word-spacing: 2px;
   color: #000000;
-  font-weight: normal;
   text-decoration: none;
   font-style: normal;
   font-variant: normal;
@@ -60,9 +59,14 @@ nav {
   letter-spacing: 2px;
   word-spacing: 2px;
   color: #000000;
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: none;
   font-style: italic;
   font-variant: small-caps;
   text-transform: none;
+}
+
+.paragraph {
+  font-size: 14px;
+
 }
