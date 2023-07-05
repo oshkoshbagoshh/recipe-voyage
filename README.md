@@ -6,20 +6,41 @@
 Recipe Voyage provides a platform for users to share, discover, and save personal recipes as well as explore recipes from other users. It creates a community where culinary enthusiasts can connect, exchange ideas, and explore a world of delicious possibilities. Whether you're looking for new recipes to try or wanting to share your own culinary creations, Recipe Voyage offers a platform to connect with fellow food lovers and embark on a delightful culinary journey.
 In our next version release, users will be able to comment on recipes and follow other users.
 
-
+## Links
+```
+Github Link: https://github.com/oshkoshbagoshh/recipe-voyage
+Heroku Link: https://recipevoyage-6c0c7512867d.herokuapp.com
+```
+## Screenshot
+![RecipeVoyage1](public/images/recipe_voyage_1.png)
+![RecipeVoyage2](public/images/recipe_voyage_2.png)
 
 ## Table of Contents
 
+- [User Story](#user-story)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Authors](#authors)
+- [Features](#features)
+- [How to Contribute](#how-to-contribute)
+- [Version History](#version-history)
 - [License](#license)
+
+
+## User Story
+```
+AS A USER of Recipe Voyage,
+I WANT to save and organize my personal recipes,
+SO THAT I can easily access and refer to them whenever I need to prepare a favorite dish.
+```
 
 ## Installation
 
-
 - To install the project, clone the repository from GitHub and run `npm install` in the root directory to install the dependencies.
-- 
+- Run the SQL scripts
+- Run `npm run seed` to seed the files
+- Run `nodemon server.js` to start your localhost server
+
 ## Usage
 
 - Test user accont info: 
@@ -27,27 +48,12 @@ In our next version release, users will be able to comment on recipes and follow
   - password: 12345678
 
 
--TODO:  Insert screenshots and demo video here: 
-<!-- Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ``` -->
-
-## Credits
+## Authors
 - Karthik Murugappan: https://github.com/karthikmurugappan
 - Alex Collin: https://github.com/acolin96
 - Barry Engler: https://github.com/Barry25000
 - AJ Javadi: https://github.com/oshkoshbagoshh
 
-
-## Badges
-- JavaScript
-<!-- ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time. -->
 
 ## Features
 - User Authentication
@@ -57,8 +63,6 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 - ORM
 - Getting Seed Data from ChatGPT
 - Handlebars
-<!-- 
-If your project has a lot of features, list them here. -->
 
 
 ## How to Contribute

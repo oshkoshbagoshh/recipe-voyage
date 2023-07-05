@@ -6,14 +6,16 @@
   </head>
   <body>
     <h2 class="header-text"><center>Welcome to Recipe Voyage!</center></h2>
-    <center><img src="/images/sailboat.png" alt="sailboat" height="500px" width="500px" class="sailboat"></center>
-
-   <h3>Latest Recipes:</h3>
+    <center><img src="/images/sailboat.png" alt="sailboat" height="300px" width="300px" class="sailboat"></center>
+    <br>
+    <center><p class="paragraph">Recipe Voyage provides a platform for users to share, discover, and save personal recipes as well as explore recipes from other users. It creates a community where culinary enthusiasts can connect, exchange ideas, and explore a world of delicious possibilities. Whether you're looking for new recipes to try or wanting to share your own culinary creations, Recipe Voyage offers a platform to connect with fellow food lovers and embark on a delightful culinary journey. In our next version release, users will be able to comment on recipes and follow other users.</p></center>
+    <center><div>
+   <h3><strong>Latest Recipes:</strong></h3>
     <ul>
       {{#each recipes}}
-      <li><a href="/recipe/{{id}}">{{recipe_name}}</a> by {{user.name}}</li>
+      <p><a href="/recipe/{{id}}">{{recipe_name}}</a> by {{user.name}}</p>
       {{/each}}
     </ul>
-
+</div></center>
   </body>
 </html>
