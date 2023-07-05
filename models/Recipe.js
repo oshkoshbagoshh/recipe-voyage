@@ -27,6 +27,11 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    createDate: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: DataTypes.NOW,
+    },
   },
   {
     sequelize,
