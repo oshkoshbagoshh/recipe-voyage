@@ -1,11 +1,6 @@
 <div class='text-center'>
   <h2>{{recipe_name}}</h2>
-  <p>{{recipe_ingredients}}</p>
-  <p class='recipe-list'>{{recipe_instructions}}</p>
-  <p>Created by {{user.name}} on {{createDate}}</p>
-  alert(createDate)
-
-  <p>
-    <button class='btn btn-primary'>Check out This Recipe!</button>
-  </p>
+  <p>{{ingredients}}</p>
+  <p class='recipe-list'>{{instructions}}</p>
+  <p>Created by {{user.name}} on {{format_date createDate}}</p>
 </div>
